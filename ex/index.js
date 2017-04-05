@@ -1,1 +1,4 @@
-console.log('hello work')
+const logger = require('./logger')
+
+
+logger.info('Usando o padrão CommonJS!')
