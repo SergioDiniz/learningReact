@@ -4,6 +4,6 @@ import ClassComponent from './classComponent'
 
 ReactDOM.render(
 
-    <ClassComponent name='Sergio' />
+    <ClassComponent label='Contador' initialValue={10} />
 
 , document.getElementById('app')) 
