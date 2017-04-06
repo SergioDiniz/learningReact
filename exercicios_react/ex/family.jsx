@@ -1,12 +1,11 @@
 import React from 'react'
-
+import { childrenWithProps } from '../utils/reactUtils'
 const component = (props) => {
     return(
         <div>
             <h1>Familia Silva:</h1>
             
-            { React.Children.map(props.children, 
-                            child => React.cloneElement(child, {...props})) }
+            { childrenWithProps(props) }
 
         </div>
     )
